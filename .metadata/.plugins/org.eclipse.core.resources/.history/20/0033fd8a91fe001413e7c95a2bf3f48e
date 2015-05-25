@@ -1,0 +1,5 @@
+package subclass;
+
+public class Manager {
+
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="firtst.student"/>
+<fullyQualifiedTypeName name="fruit.FruitBuyer"/>
+<fullyQualifiedTypeName name="fruit.FruitSeller"/>
+<fullyQualifiedTypeName name="StaticTest.MyStatic"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="junit.framework.TestCase"/>
+<fullyQualifiedTypeName name="StaticTest.Student"/>
+<fullyQualifiedTypeName name="singleton.Company"/>
+<fullyQualifiedTypeName name="ch6.SutdaCard"/>
+<fullyQualifiedTypeName name="java.io.ObjectInputStream.GetField"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="inheritance.FireEngine"/>
+<fullyQualifiedTypeName name="subclass.Manager"/>
+<fullyQualifiedTypeName name="subclass.Employee"/>
+<fullyQualifiedTypeName name="java.sql.Date"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="test.Secretary"/>
+<fullyQualifiedTypeName name="test.Employee"/>
+<fullyQualifiedTypeName name="shape.Shape"/>
+<fullyQualifiedTypeName name="java.lang.Void"/>
+<fullyQualifiedTypeName name="shape.ShapeTest"/>
+<fullyQualifiedTypeName name="shape.Rectangle"/>
+<fullyQualifiedTypeName name="java.awt.Shape"/>
+<fullyQualifiedTypeName name="shape.Triangle"/>
+</qualifiedTypeNameHistroy>

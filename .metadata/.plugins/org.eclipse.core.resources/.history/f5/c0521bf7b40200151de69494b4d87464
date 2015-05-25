@@ -1,0 +1,5 @@
+package carcompany;
+
+public class Grandeur extends Car{
+
+}

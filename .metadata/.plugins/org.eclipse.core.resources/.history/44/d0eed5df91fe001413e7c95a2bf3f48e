@@ -1,0 +1,12 @@
+package subclass;
+
+public class Manager {
+	public String name; 
+	public String sabun;
+	public double salary;
+	public String department;
+	
+	public String getDetail(){
+		return name+","+sabun+","+salary+","+department;
+	}
+}

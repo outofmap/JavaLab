@@ -1,0 +1,13 @@
+package subclass;
+
+public class EmployeeTest {
+
+	public static void main(String[] args) {
+		Manager m = new Manager();
+		m.name = "James";
+		m.department = "personal";
+		
+		System.out.println(m.getDetail());
+	}
+
+}

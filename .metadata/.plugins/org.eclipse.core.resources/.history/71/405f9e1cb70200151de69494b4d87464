@@ -1,0 +1,25 @@
+package carcompany;
+
+public class CarComapnytest {
+
+	public static void main(String[] args) {
+		
+		Sonata s = new Sonata("sonata",3000,3);
+		Genesis g = new Genesis("Genesis",4000,2);
+		Grandeur gr = new Grandeur("Grandeur",5000,1);
+		Car tempList[] = {s,g,gr};
+		Car carList[];
+		
+		int i;
+		
+		for(i=0; i < tempList[i].number;i++){
+			
+			Car.carList[i] = new Sonata("sonata",3000,3); 
+			
+		}
+		
+		Calculate.cal(carList);
+		
+	}
+
+}

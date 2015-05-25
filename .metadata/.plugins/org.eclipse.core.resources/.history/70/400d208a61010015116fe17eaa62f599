@@ -1,0 +1,10 @@
+package carcompany;
+
+public class sonata extends Car{
+	
+	String name = "sonata";
+	
+	void setBrand(name);
+	
+	
+}

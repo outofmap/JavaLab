@@ -1,0 +1,78 @@
+package shape;
+
+class Shape{
+	public void draw(){
+		System.out.println("draw shope");
+	}
+	
+	public void circle(){
+		System.out.println("I'm Circle");
+	}
+}
+
+class Circle extends Shape{
+	public void draw(){
+		System.out.println("draw circle");
+	}
+}
+
+class Rectangle extends Shape{
+	//오버라이
+	public void draw(){
+		System.out.println("draw rectangle");
+	}
+	public void rectangle(){
+		System.out.println("I'm Rectangle");
+	}
+}
+
+class Triangle extends Shape{
+	//오버라이
+	public void draw(){
+		System.out.println("draw triangle");
+	}
+	
+	public void triangle(){
+		System.out.println("I'm triangle");
+	}
+}
+
+public class ShapeTest {
+
+	public static void main(String[] args) {
+		
+		Shape s = new Circle();
+		//s.draw();								//virtual fuction, overiding
+		
+		Circle cs = (Circle)s;
+		//cs.circle();
+		
+		//s = new Circle(); 					//상위 클래스로 upcasting 된다. 
+		//s.draw();
+		
+		ShapeTest st = new ShapeTest();
+		st.drawShope(new Circle());
+		st.drawShope(new Rectangle());
+		st.drawShope(new Triangle());
+	}
+	
+	public void drawShope(Shape s){
+		s.draw();
+		
+		// s = Circcle? true -> circle로 변
+		if(s instanceof Circle){
+			Circle c = (Circle)s;
+			c.circle();
+		}
+		else if(s instanceof Rectangle){
+			Rectangle r = (Rectangle)s;
+			r.rectangle();
+		}
+		else if( s instanceof Triangle){
+			Triangle t = (Triangle)s;
+			t.triangle();
+		}
+		
+	}
+
+}

@@ -1,0 +1,10 @@
+package carcompany;
+
+public class Calculate {
+	
+	 public static int cal(Car[] CarList){
+		
+		 return 0;
+	 }
+
+}

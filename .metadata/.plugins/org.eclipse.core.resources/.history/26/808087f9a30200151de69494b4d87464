@@ -1,0 +1,11 @@
+package carcompany;
+
+public class sonata extends Car{
+	
+	super();
+	s.brand = "soanta";
+	s.price = 3000;
+	s.number = 3;
+	
+	
+}

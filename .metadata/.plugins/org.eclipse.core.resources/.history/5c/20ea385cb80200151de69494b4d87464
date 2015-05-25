@@ -1,0 +1,20 @@
+package carcompany;
+
+public class Calculate {
+	
+	 public static int cal(Car[] CarList){
+		int i;
+		
+		for(i=0; i<CarList.length; i++){
+			
+			if(CarList[i] instanceof Sonata){
+				Car c = (Sonata)CarList[i];
+				
+			}
+			
+			
+		 }
+		return 
+	 }
+
+}

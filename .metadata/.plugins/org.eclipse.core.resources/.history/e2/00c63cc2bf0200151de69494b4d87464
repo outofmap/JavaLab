@@ -1,0 +1,10 @@
+package carcompany;
+
+public class Genesis extends Car {
+	Genesis(String brand,int price,int number){
+		this.brand = brand;
+		this.price = price;
+		this.number = number;
+		
+	}
+}

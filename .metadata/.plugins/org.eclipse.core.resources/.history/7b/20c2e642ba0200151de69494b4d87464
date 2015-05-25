@@ -1,0 +1,20 @@
+package carcompany;
+
+public class CarComapnytest {
+
+	public static void main(String[] args) {
+
+		Sonata s = new Sonata("sonata", 3000, 3);
+		Genesis g = new Genesis("Genesis", 4000, 2);
+		Grandeur gr = new Grandeur("Grandeur", 5000, 1);
+
+		Car carList[] = { s, g, gr };
+		int result;
+		// Car carList[] = null;
+
+		System.out.println(carList.length);
+		result = Calculate.cal(carList);
+		System.out.println(result);
+	}
+
+}

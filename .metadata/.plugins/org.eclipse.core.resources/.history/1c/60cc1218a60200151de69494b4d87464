@@ -1,0 +1,9 @@
+package carcompany;
+
+public static class Calculate {
+	
+	 public static int cal(Car[] CarList){
+		 
+	 }
+
+}

@@ -1,0 +1,20 @@
+package carcompany;
+
+public class Car {
+	//brand명, 차량가격, 차량 대 
+	String brand;
+	protected int price;
+	protected int number;
+	
+	public void setBrand(String name){
+		this.brand = name;
+	}
+	
+	public void setPrice(int p){
+		this.price = p;
+	}
+	public void setNumber(int n){
+		this.number = n;
+	}
+	
+}

@@ -1,0 +1,17 @@
+package subclass;
+
+public class Employee {
+	
+	public String name; 
+	public String sabun;
+	protected double salary; 
+	
+	public String getDetail(){
+		
+		return name+","+sabun+","+salary;
+	}
+	public Employee(){
+		System.out.println("Employee()");
+	}
+
+}

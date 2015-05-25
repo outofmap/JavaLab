@@ -1,0 +1,7 @@
+package carcompany;
+
+public class Company {
+	
+	public int totalCar;
+	
+}
