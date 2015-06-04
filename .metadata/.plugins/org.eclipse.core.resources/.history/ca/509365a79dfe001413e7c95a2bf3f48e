@@ -1,7 +1,0 @@
-package test;
-
-public class Manager extends Employee {
-	
-	public String deaprtment;
-
-}
