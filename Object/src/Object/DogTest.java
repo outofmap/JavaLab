@@ -29,6 +29,7 @@ public class DogTest {
 //		System.out.println(minky.hashCode());
 //		System.out.println(m);
 //		//String herName = new String("√·«‚");
+		
 //		
 //		//System.out.println(herName.toString());
 //		

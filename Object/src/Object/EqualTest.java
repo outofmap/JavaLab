@@ -11,7 +11,7 @@ class Student {
 		this.studentId = studentId;
 		this.studentName = studentName;
 	}
-
+	//toString 오버라이딩
 	public String toString() {
 		return studentName;
 	}

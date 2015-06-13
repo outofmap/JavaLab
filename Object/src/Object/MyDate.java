@@ -31,7 +31,7 @@ public class MyDate {
 		} else
 			return false;
 	}
-
+	//hashcode는 원래 객체가 생성될때 가지는 참조값이지만, hashCode method도  재정의 할 수 있다. 
 	public int hashCode(){
 
 		return day + month + year;
