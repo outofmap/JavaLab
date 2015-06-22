@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="EUC-KR" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2015-06-17T10:56:06</date>
+  <millis>1434506166586</millis>
+  <sequence>0</sequence>
+  <logger>mylogger</logger>
+  <level>WARNING</level>
+  <class>logger.MyLogger</class>
+  <method>log</method>
+  <thread>10</thread>
+  <message>test message</message>
+</record>
+</log>
+2015. 6. 17 오전 11:08:03 logger.MyLogger log
+자세히: test message
+2015. 6. 17 오전 11:08:03 logger.MyLogger log
+경고: test message
+2015. 6. 17 오전 11:08:19 logger.MyLogger log
+자세히: test message
+2015. 6. 17 오전 11:08:19 logger.MyLogger log
+경고: test message
+2015. 6. 17 오전 11:08:58 logger.MyLogger log
+자세히: test message
+2015. 6. 17 오전 11:08:58 logger.MyLogger log
+경고: test message
+2015. 6. 17 오전 11:25:26 logger.MyLogger fine
+자세히: begin testStudentName()
+2015. 6. 17 오전 11:25:26 logger.MyLogger warning
+경고: name must not be null
+2015. 6. 17 오전 11:25:26 logger.MyLogger warning
+경고: name is too long
+2015. 6. 17 오전 11:25:26 logger.MyLogger fine
+자세히: end testStudentName()
+2015. 6. 17 오후 2:20:59 logger.MyLogger fine
+자세히: begin testStudentName()
+2015. 6. 17 오후 2:20:59 logger.MyLogger warning
+경고: name must not be null
+2015. 6. 17 오후 2:20:59 logger.MyLogger warning
+경고: name is too long
+2015. 6. 17 오후 2:20:59 logger.MyLogger fine
+자세히: end testStudentName()
+2015. 6. 17 오후 2:21:02 logger.MyLogger fine
+자세히: begin testStudentName()
+2015. 6. 17 오후 2:21:02 logger.MyLogger warning
+경고: name must not be null
+2015. 6. 17 오후 2:21:02 logger.MyLogger warning
+경고: name is too long
+2015. 6. 17 오후 2:21:02 logger.MyLogger fine
+자세히: end testStudentName()
